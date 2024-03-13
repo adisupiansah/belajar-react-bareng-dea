@@ -1,0 +1,49 @@
+.myBG{
+    height: 100vh;
+    background: url("../assets/images/bg.jpg");
+    background-size: cover;
+}
+
+.intro {
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+/* trending */
+.trending {
+    height: auto;
+    background: url("../assets/images/cars.jpg");
+    background-size: cover;
+}
+
+.movieWrapper {
+
+}
+
+.movieImage{
+    height: auto;
+}
+.images{
+    height: 250px;
+}
+
+.judul {
+    color: #222831;
+    text-shadow: 2px 2px #F5F7F8;
+}
+
+ @media screen and (max-widt: 500px) {
+   .intro .title{
+        font-size: 10px;
+    }
+}
